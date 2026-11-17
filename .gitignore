@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+logs/
+*.log
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
